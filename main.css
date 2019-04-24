@@ -1,0 +1,34 @@
+body {
+	margin: none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.canvasContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: black;
+}
+
+#mainCanvas {
+	width: 100%;
+	height: 100%;
+}
+
+.popupControls {
+	position: absolute;
+	top: 50%;
+	left: -150%;
+	transform: translate(-50%, -50%);
+	width:50%;
+	min-height: 50%;
+	background: #1f2c5f4f;
+	box-shadow: 1px 1px 20px 0px #545454;
+	padding: 20px;
+}
